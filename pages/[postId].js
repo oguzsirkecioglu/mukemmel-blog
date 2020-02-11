@@ -12,7 +12,7 @@ const BlogPost = ({ post }) => (
     </Head>
 
     <div className="hero">
-      <h1 className="hero-title">Selman Kahya</h1>
+      <h1 className="hero-title">Oğuz Sirkecioğlu</h1>
       <div className="hero-social-links">
         <Link href="https://medium.com/@selmankahya">
           <a className="social-link">Medium</a>
