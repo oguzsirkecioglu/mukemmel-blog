@@ -7,61 +7,66 @@ import ReactMarkdown from "react-markdown";
 const Home = ({ posts }) => (
   <div className="container">
     <Head>
-      <title>Home</title>
+            <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <div className="hero">
-      <h1 className="hero-title">Oğuz Sirkecioğlu</h1>
+      <h1 className="boss">Oğuz Sirkecioğlu</h1>
+<h2 className="intro"> Industrial Engineering Student and Developer </h2>
       <div className="hero-social-links">
-        <Link href="https://medium.com/@selmankahya">
-          <a className="social-link">Medium</a>
-        </Link>
-        <Link href="https://www.twitter.com/selmankahyax">
+
+      
+        <Link href="https://www.twitter.com/oloading1">
           <a className="social-link">Twitter</a>
         </Link>
-        <Link href="https://www.linkedin.com/in/selmankahya">
+        <Link href="https://tr.linkedin.com/in/oğuz-sirkecioğlu-37a200198">
           <a className="social-link">LinkedIn</a>
         </Link>
-        <Link href="https://www.instagram.com/selmankahyax/?hl=en">
+        <Link href="https://www.instagram.com/oguzsirkecioglu">
           <a className="social-link">Instagram</a>
         </Link>
       </div>
     </div>
 
-    {posts.map(post => (
-      <div className="blog">
-        <h2 className="blog-title">
-          <Link href={post.slug}>
-            <a className="blog-title-link">{post.title}</a>
-          </Link>
-        </h2>
-        <div className="blog-text">
-          <ReactMarkdown source={post.details} />
-        </div>
-        <div className="blog-date">{post.date}</div>
-      </div>
-    ))}
+
 
     <style jsx>{`
       .container {
         max-width: 650px;
         width: 100%;
-        margin: 0 auto;
+        margin: 1 auto;
+        padding-top: 120px;
+      }
+      
+      .intro{
+        font-family: arial;
+        font-size:15px;
+        color: grey;
+        padding-top:12px;
       }
 
       .hero {
         text-align: center;
         margin: 96px 0;
+        
       }
 
       .social-link {
         margin-right: 8px;
+
+      }
+      
+      .hero-social-links{
+        padding-top:34px;
       }
 
-      .hero-title {
+      .boss {
         font-size: 48px;
-      }
+        font-family: "Times New Roman", Times, serif;
+        padding-top:1px;
+
+        }
 
       .blog-date {
         text-align: right;
@@ -76,7 +81,6 @@ const Home = ({ posts }) => (
     `}</style>
   </div>
 );
-
 Home.getInitialProps = async ({ req }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
   const res = await fetch("https://oguzsirkecioglu.herokuapp.com/api/posts");
