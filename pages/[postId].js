@@ -14,21 +14,19 @@ const BlogPost = ({ post }) => (
     <div className="hero">
       <h1 className="hero-title">Oğuz Sirkecioğlu</h1>
       <div className="hero-social-links">
-        <Link href="https://medium.com/@selmankahya">
-          <a className="social-link">Medium</a>
-        </Link>
-        <Link href="https://www.twitter.com/selmankahyax">
+        
+        <Link href="https://www.twitter.com/oloading1">
           <a className="social-link">Twitter</a>
         </Link>
-        <Link href="https://www.linkedin.com/in/selmankahya">
+        <Link href="https://www.linkedin.com/in/oguzsirkecioglu">
           <a className="social-link">LinkedIn</a>
         </Link>
-        <Link href="https://www.instagram.com/selmankahyax/?hl=en">
+        <Link href="https://www.instagram.com/oguzsirkecioglu">
           <a className="social-link">Instagram</a>
         </Link>
       </div>
     </div>
-
+<!--
     <div className="blog">
       <h2 className="blog-title">
         <Link href="/test">
@@ -40,6 +38,7 @@ const BlogPost = ({ post }) => (
       </div>
       <div className="blog-date">{post.date}</div>
     </div>
+    -->
     <style jsx>{`
       .container {
         max-width: 650px;
