@@ -26,7 +26,7 @@ const BlogPost = ({ post }) => (
         </Link>
       </div>
     </div>
-<!--
+
     <div className="blog">
       <h2 className="blog-title">
         <Link href="/test">
@@ -38,7 +38,7 @@ const BlogPost = ({ post }) => (
       </div>
       <div className="blog-date">{post.date}</div>
     </div>
-    -->
+
     <style jsx>{`
       .container {
         max-width: 650px;
