@@ -5,7 +5,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 
 const Home = ({ posts }) => (
-  <div className="container">
+  <div className="container bg">
     <Head>
             <title>Oğuz Sirkecioğlu | Developer</title>
       <link rel="icon" href="/favicon.ico" />
@@ -19,11 +19,11 @@ const Home = ({ posts }) => (
       <div className="hero-social-links">
 
       
-      <a className="social-link" href="https://www.linkedin.com/oguzsirkecioglu">  <input type="image" className="twitter" src="https://img.icons8.com/plasticine/2x/linkedin.png" /></a>
+      <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="twitter" src="https://img.icons8.com/plasticine/2x/linkedin.png" /></a>
 
         <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="insta" src="https://cdn2.iconfinder.com/data/icons/instagram-classic/512/instagram-square-3d-512.png" /></a>
 
-        <a className="social-link" href="https://www.twitter.com/oloading1">  <input type="image" className="twitterr" src="https://img.icons8.com/plasticine/2x/twitter.png" /></a>
+        <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="twitterr" src="https://img.icons8.com/plasticine/2x/twitter.png" /></a>
 
       
       </div>
@@ -32,14 +32,25 @@ const Home = ({ posts }) => (
 
 
     <style jsx>{`
+      .bg{
+        position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  color:black;
+      }
       .container {
-        min-width: 800px;
+        min-width: 700px;
         min-height: 700px;
         padding-top:110px;
         margin: 9px auto;
         color:white;
         background:black;
-        margin: -1% ; 
+        margin: -1% auto ; 
         
         
       }
