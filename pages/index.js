@@ -19,11 +19,11 @@ const Home = ({ posts }) => (
       <div className="hero-social-links">
 
       
-      <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="twitter" src="https://img.icons8.com/plasticine/2x/linkedin.png" /></a>
+      <a className="social-link" href="https://tr.linkedin.com/in/o%C4%9Fuz-sirkecio%C4%9Flu-37a200198">  <input type="image" className="twitter" src="https://cdn.iconscout.com/icon/free/png-256/linkedin-82-434743.png" /></a>
 
-        <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="insta" src="https://cdn2.iconfinder.com/data/icons/instagram-classic/512/instagram-square-3d-512.png" /></a>
+        <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="insta" src="https://cdn.pixabay.com/photo/2018/03/19/02/52/logo-instagram-3238899_960_720.png" /></a>
 
-        <a className="social-link" href="https://www.instagram.com/oguzsirkecioglu">  <input type="image" className="twitterr" src="https://img.icons8.com/plasticine/2x/twitter.png" /></a>
+        <a className="social-link" href="https://www.twitter.com/oloading1">  <input type="image" className="twitterr" src="https://lh4.googleusercontent.com/proxy/kwA6bBjAnuP_fxtk1LuvkcNvWOdqvYpSvEOeja9HIJFLUjJPMkCeubL4u06NvJ8D0mBdl0JFKbxeXEhteC553-jQegkMad2JQ0UIDQ" /></a>
 
       
       </div>
@@ -43,15 +43,17 @@ const Home = ({ posts }) => (
   min-height: 50%;
 no-repeat center center fixed #000;
     background-size: cover; 
+    
       }
       .container {
-        max-width: 650px;
-        
+        max-width: 700px;
+        max-height: 700px;
         padding-top:110px;
         margin: 9px auto;
         color:white;
         background-image: url('https://www.stellifytalent.com/wp-content/uploads/2018/07/ezgif.com-video-to-gif.gif') ;
-        
+        max-width:100%;
+        max-height:100%;
         margin: -1% auto ; 
           
       }
@@ -85,13 +87,15 @@ no-repeat center center fixed #000;
 
       }
       .twitter{
-        padding-top:1px;
-height:62px;
+        padding:8px;
+height:42px;
       }
-.twitterr{
-padding:px;
-height:62px;
-}
+      
+      .twitterr{
+       padding:6px;
+       height:48px;
+     
+      }
 .insta{
   padding-top: 17px;
  padding:9px; 
