@@ -45,8 +45,8 @@ no-repeat center center fixed #000;
     background-size: cover; 
       }
       .container {
-        min-width: 700px;
-        min-height: 700px;
+        max-width: 650px;
+        
         padding-top:110px;
         margin: 9px auto;
         color:white;
