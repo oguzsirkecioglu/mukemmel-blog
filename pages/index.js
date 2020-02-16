@@ -5,7 +5,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 
 const Home = ({ posts }) => (
-  <div className="container bg">
+  <div className="container bg" >
     <Head>
             <title>Oğuz Sirkecioğlu | Developer</title>
       <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ const Home = ({ posts }) => (
     <div className="hero">
       <p className="boss">OĞUZ SİRKECİOĞLU</p>
       
-<h2 className="intro"> IE STUDENT / DEVELOPER </h2>
+<h2 className="intro" > IE STUDENT / DEVELOPER </h2>
 <hr className="cizgi"></hr>
       <div className="hero-social-links">
 
@@ -41,7 +41,8 @@ const Home = ({ posts }) => (
   margin: auto; 
   min-width: 50%;
   min-height: 50%;
-  color:black;
+no-repeat center center fixed #000;
+    background-size: cover; 
       }
       .container {
         min-width: 700px;
@@ -49,10 +50,10 @@ const Home = ({ posts }) => (
         padding-top:110px;
         margin: 9px auto;
         color:white;
-        background:black;
+        background-image: url('https://www.stellifytalent.com/wp-content/uploads/2018/07/ezgif.com-video-to-gif.gif') ;
+        
         margin: -1% auto ; 
-        
-        
+          
       }
       .cizgi{
         border: 0.4pt solid grey;      
